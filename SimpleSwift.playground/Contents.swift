@@ -41,7 +41,6 @@ func calculate(_ args: [String]) -> Int {
     }
 }
 
-
 func calculate(_ arg: String) -> Int {
     let lis = arg.split(separator: " ")
     var input: [String] = []
@@ -157,6 +156,7 @@ func calculate(_ args: [String]) -> Double {
         }
     }
 }
+
 func calculate(_ arg: String) -> Double {
     let lis = arg.split(separator: " ")
     var input: [String] = []
